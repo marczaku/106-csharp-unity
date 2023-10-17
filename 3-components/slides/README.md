@@ -50,6 +50,7 @@ For many Game Mechanics, e.g.:
 - add Burning Component to an enemy hit by fire ball spell
 - remove Collider from a door destroyed by a bomb
 - add Shield Component to player after picking up a power-up
+- Disable Renderer Component to make player invisible after picking up a power-up
 
 ## Intentionally Left Out
 - Caching Component References
