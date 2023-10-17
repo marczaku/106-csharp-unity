@@ -1,6 +1,6 @@
 # Slides 3 - Components
 
-Components change, what a GameObject behaves like. A GameObject can have one or more Components. It always has a GameObject Component.
+Components change, what a GameObject behaves like. A GameObject can have one or more Components. It always has a `Transform` Component.
 
 ## Adding
 
