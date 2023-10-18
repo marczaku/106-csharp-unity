@@ -3,9 +3,9 @@
 Methods allow you to define behaviour on your MonoBehaviours. They are functions that each class instance has.
 
 ## Definition
-You define the method similar to a function, but within the Scope `{` `}` of a `MonoBehaiour` and using the `public`-Keyword (otherwise, you won't be able to access it in the next step):
+You define the method similar to a function, but within the Scope `{` `}` of a `MonoBehaviour` and using the `public`-Keyword (otherwise, you won't be able to access it in the next step):
 ```csharp
-public class Player {
+public class Player : MonoBehaviour {
     public void SayHello() {
         Console.WriteLine("Hello");
     }
